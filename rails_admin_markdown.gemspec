@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.name        = "rails_admin_markdown"
   s.version     = RailsAdminMarkdown::VERSION
   s.authors     = ["Thomas Mesquita"]
-  s.email       = ["thomas.mesquita@welltok.com"]
-  s.homepage    = ""
+  s.email       = [""]
+  s.homepage    = "https://github.com/tmesquita/rails_admin_markdown"
   s.summary     = "Adds markdown editing and rendering for text fields"
   s.description = ""
   s.licenses = ["MIT"]
