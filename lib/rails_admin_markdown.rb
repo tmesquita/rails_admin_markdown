@@ -1,3 +1,4 @@
+require 'redcarpet'
 require 'rails_admin'
 require "rails_admin_markdown/engine"
 

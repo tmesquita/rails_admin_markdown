@@ -4,11 +4,11 @@ module RailsAdmin::Config::Fields::Types
 
     register_instance_option :pretty_value do
       if value.present?
-        html_renderer = Redcarpet::Render::HTML.new filter_html: true,
-                                                    no_images: true,
-                                                    prettify: true
+        html_renderer = ::Redcarpet::Render::HTML.new filter_html: true,
+                                                      no_images: true,
+                                                      prettify: true
 
-        Redcarpet::Markdown.new(html_renderer, autolink: true).render(value).html_safe
+        ::Redcarpet::Markdown.new(html_renderer, autolink: true).render(value).html_safe
       else
         ' - '
       end
